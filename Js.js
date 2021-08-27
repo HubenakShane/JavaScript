@@ -1,24 +1,24 @@
 var button = document.getElementById("m_generate")
 button.addEventListener("click", function () {
-  console.log(
+  console.log(string,length)
     
-    Var length = (len)?(len):len(10)
-    Var length = (len)?(len):len(10);
-    Var string = “abcdefghijklmnopqrstuvwxyz” 
-    Var numeric ‘0123456789’
-    Var punctuation = '@#$&*/=+-%€§£|¥~_…^\!?';
-    Var password = “” ;
-    Var Character = “” ;
-    Var crunch = true;
-    While( password.length<length )
+    var length = (len)?(len):len(10)
+    var length = (len)?(len):len(10);
+    var string = “abcdefghijklmnopqrstuvwxyz” 
+    var numeric ‘0123456789’
+    var punctuation = '@#$&*/=+-%€§£|¥~_…^\!?';
+    var password = “” ;
+    var character = “” ;
+    var crunch = true;
+    while( password.length<length )
 
-    {Entity1 = Math.Cell(string.length * Math.random()*Math.random());
+    {entity1 = Math.Cell(string.length * Math.random()*Math.random());
     
-      Entity2 = Math.Ceil(numerical.length * Math.random() Math.random());
+      entity2 = Math.Ceil(numerical.length * Math.random() Math.random());
     
-      Entity3 = Math.Ceil(punctuation.length * Math.random()*Math.random());
+      entity3 = Math.Ceil(punctuation.length * Math.random()*Math.random());
     
-      hold = string.charAt(entity1 ); 
+      var hold = string.charAt(entity1 ); 
 
       hold = (password.length%2==0)?(hold.toUpperCase()):(hold);
     
@@ -49,6 +49,6 @@ button.addEventListener("click", function () {
 
       }
   // to upper
-    ;)
+    ;
 });
   
