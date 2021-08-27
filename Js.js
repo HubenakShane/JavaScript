@@ -1,7 +1,7 @@
 var button = document.querySelector('button');
 button.onclick = function() {
   //do stuff
-}
+
 
 Var length = (len)?(len):len(10);
 
@@ -18,7 +18,7 @@ Var Character = “” ;
 Var crunch = true;
 
 While( password.length<length )
-
+}
 {
 
                  Entity1 = Math.Cell(string.length * Math.random()*Math.random());
