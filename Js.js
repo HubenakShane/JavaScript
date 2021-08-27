@@ -8,7 +8,8 @@ button.addEventListener("click", function () {
   var password = '';
   var character = '';
   var crunch = true;
-console.log(string,numeric)
+  var passwordlength = prompt('Will this get completed?')
+console.log(string,numeric,passwordlength)
 //   while (password.length < length) {
 //     entity1 = Math.Cell(string.length * Math.random() * Math.random());
 
