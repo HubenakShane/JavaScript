@@ -1,5 +1,7 @@
-var button = document.querySelector('button');
-button.onclick = function() {
+var button = document.querySelector("#m_generate")
+button.onClick(function() {
+    console.log("hello")
+});
   //do stuff
 }
 
